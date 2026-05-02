@@ -90,8 +90,8 @@
     .hero-card{background:linear-gradient(135deg,#f6f2ec 0%,#dce8e0 60%,#ccdacf 100%);border-radius:24px;padding:var(--space-6);box-shadow:var(--shadow-lg);position:relative;overflow:hidden}
     [data-theme="dark"] .hero-card{background:linear-gradient(135deg,#1e2620 0%,#1a2820 60%,#162018 100%)}
     .hero-card-top{display:flex;align-items:center;gap:var(--space-3);margin-bottom:var(--space-4)}
-    .portrait-circle{width:80px;height:80px;border-radius:var(--radius-full);background:linear-gradient(145deg,#fdfaf6,#c8d8cc);border:2px solid rgba(255,255,255,.85);box-shadow:0 4px 14px rgba(0,0,0,.1);overflow:hidden;display:flex;align-items:center;justify-content:center;flex-shrink:0}
-    .portrait-initial{font-family:var(--font-display);font-size:2rem;color:#3a5a46;font-weight:600}
+    .portrait-circle{width:90px;height:90px;border-radius:var(--radius-full);border:3px solid rgba(255,255,255,.9);box-shadow:0 4px 14px rgba(0,0,0,.15);overflow:hidden;display:flex;align-items:center;justify-content:center;flex-shrink:0;background:#c8d8cc}
+    .portrait-circle img{width:100%;height:100%;object-fit:cover;object-position:center top}
     .hero-card h2{font-family:var(--font-display);font-size:var(--text-lg);margin-bottom:.2rem}
     .hero-card .subtitle{font-size:var(--text-xs);color:var(--color-text-muted);text-transform:uppercase;letter-spacing:.14em}
     .hero-card p{font-size:var(--text-sm);color:var(--color-text-muted);margin-bottom:var(--space-4)}
@@ -194,7 +194,13 @@
         <div class="hero-card">
           <div class="hero-card-top">
             <div class="portrait-circle">
-              <span class="portrait-initial">J</span>
+              <img
+                src="./WhatsApp%20Image%202026-05-02%20at%205.00.36%20PM%20JAIE.jpeg"
+                alt="Jamie Lynn, Licensed Aesthetician at Skynn With Jamie Lynn"
+                width="90"
+                height="90"
+                loading="eager"
+              />
             </div>
             <div>
               <h2>Jamie Lynn</h2>
